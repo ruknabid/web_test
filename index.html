@@ -6,8 +6,8 @@
 <body>
 <script>
 function myFunction() {
-  var btn_name = document.getElementById("button_sample").value;
-  if (btn_name.equals("hide"))
+  var btn_name = document.getElementById("button_sample");
+  if (btn_name.value == "hide")
      document.getElementById("button_sample").value = "show"
   else
      document.getElementById("button_sample").value = "hide"
